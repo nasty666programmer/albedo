@@ -1,0 +1,23 @@
+{
+    "name": "developer/test-proj.loc",
+    "authors": [
+        {
+            "name": "nasty666programmer",
+            "email": "ivanov1study@gmail.com"
+        }
+    ],
+    
+    "autoload": {
+        "psr-4": {
+            "DevStart\\": "src/"
+        }
+    },
+    "require": {},
+    "repositories": [
+        {
+             "type": "composer", 
+             "url": "https://packagist.org"
+        },
+        { "packagist": false }
+    ]
+}
